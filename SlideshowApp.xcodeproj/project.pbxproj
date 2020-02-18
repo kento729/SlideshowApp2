@@ -13,6 +13,10 @@
 		B736751623FAE2EC00BEFE2D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B736751423FAE2EC00BEFE2D /* Main.storyboard */; };
 		B736751823FAE2ED00BEFE2D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B736751723FAE2ED00BEFE2D /* Assets.xcassets */; };
 		B736751B23FAE2ED00BEFE2D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B736751923FAE2ED00BEFE2D /* LaunchScreen.storyboard */; };
+		B736752523FAEFC000BEFE2D /* ZoomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B736752423FAEFC000BEFE2D /* ZoomViewController.swift */; };
+		B736752723FAF58A00BEFE2D /* dog.png in Resources */ = {isa = PBXBuildFile; fileRef = B736752623FAF58A00BEFE2D /* dog.png */; };
+		B736752923FAF59100BEFE2D /* cat.png in Resources */ = {isa = PBXBuildFile; fileRef = B736752823FAF59100BEFE2D /* cat.png */; };
+		B736752B23FAF59700BEFE2D /* rabbitt.png in Resources */ = {isa = PBXBuildFile; fileRef = B736752A23FAF59700BEFE2D /* rabbitt.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		B736751723FAE2ED00BEFE2D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B736751A23FAE2ED00BEFE2D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B736751C23FAE2ED00BEFE2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B736752423FAEFC000BEFE2D /* ZoomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZoomViewController.swift; sourceTree = "<group>"; };
+		B736752623FAF58A00BEFE2D /* dog.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dog.png; sourceTree = "<group>"; };
+		B736752823FAF59100BEFE2D /* cat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cat.png; sourceTree = "<group>"; };
+		B736752A23FAF59700BEFE2D /* rabbitt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rabbitt.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +67,10 @@
 				B736750E23FAE2EC00BEFE2D /* AppDelegate.swift */,
 				B736751023FAE2EC00BEFE2D /* SceneDelegate.swift */,
 				B736751223FAE2EC00BEFE2D /* ViewController.swift */,
+				B736752623FAF58A00BEFE2D /* dog.png */,
+				B736752823FAF59100BEFE2D /* cat.png */,
+				B736752A23FAF59700BEFE2D /* rabbitt.png */,
+				B736752423FAEFC000BEFE2D /* ZoomViewController.swift */,
 				B736751423FAE2EC00BEFE2D /* Main.storyboard */,
 				B736751723FAE2ED00BEFE2D /* Assets.xcassets */,
 				B736751923FAE2ED00BEFE2D /* LaunchScreen.storyboard */,
@@ -125,8 +137,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B736752923FAF59100BEFE2D /* cat.png in Resources */,
+				B736752723FAF58A00BEFE2D /* dog.png in Resources */,
 				B736751B23FAE2ED00BEFE2D /* LaunchScreen.storyboard in Resources */,
 				B736751823FAE2ED00BEFE2D /* Assets.xcassets in Resources */,
+				B736752B23FAF59700BEFE2D /* rabbitt.png in Resources */,
 				B736751623FAE2EC00BEFE2D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -141,6 +156,7 @@
 				B736751323FAE2EC00BEFE2D /* ViewController.swift in Sources */,
 				B736750F23FAE2EC00BEFE2D /* AppDelegate.swift in Sources */,
 				B736751123FAE2EC00BEFE2D /* SceneDelegate.swift in Sources */,
+				B736752523FAEFC000BEFE2D /* ZoomViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
