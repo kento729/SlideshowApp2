@@ -108,13 +108,10 @@ class ViewController: UIViewController {
     
     
     @IBAction func onTapAction(_ sender: Any) {
-        
         self.performSegue(withIdentifier: "toZoomIn", sender: nil)
         
         self.timer.invalidate()
-        
         self.timer = nil
-        
         switchButton.setTitle("再生", for: .normal)
         
         }
